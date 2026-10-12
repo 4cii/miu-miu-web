@@ -711,6 +711,7 @@ html {
 .team-desc {
     margin: 0 0 0 0;
     font-size: 1.85rem;
+    text-align: center;
 }
 
 .team-cards {
