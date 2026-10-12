@@ -1,3 +1,3 @@
 ﻿# miu-miu-web
-concept design non-comercial
+concept design non-commercial use
 
