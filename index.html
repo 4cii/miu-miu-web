@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>miu-miu</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/Miumiu-logo.png" type="image/x-icon">
+    <!-- Remix icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" integrity="sha512-XcIsjKMcuVe0Ucj/xgIXQnytNwBttJbNjltBV18IOnru2lDPe9KRRyvCXw6Y5H415vbBLRm8+q6fmLUU7DfO6Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- header -->
+    <header class="header">
+    <div class="menu-search-bar">
+        <a href="#" class="menu-toggle" aria-label="Open menu" aria-controls="sidebar" aria-expanded="false">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5h16"/><path d="M4 12h16"/><path d="M4 19h16"/></svg>
+        </a>
+        <a class="search-bar" href="#" aria-label="Search">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </a>
+    </div>
+
+    <a class="logo" href="#"><img src="assets/images/MiuMiuNUXlogo-white.svg" alt="Miu Miu Logo"></a>
+
+    <div class="contact-fav-bar">
+
+    <div class="contact-wrap">
+        <a href="#" class="btn-contact" aria-expanded="false" aria-controls="contact-popup">Contact Us</a>
+
+        <!-- contact popup -->
+        <div class="contact-popup" id="contact-popup">
+        <div class="contact-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail preview-icon"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+            <h2>client.service.americas@miumiu.com</h2>
+        </div>
+        <div class="contact-1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg>
+            <h2>+1-888-964-8648</h2>
+        </div>
+        </div>
+    </div>
+
+    <a href="#" class="like-btn-menu" aria-label="Favorites">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5"/></svg>
+    </a>
+    </div>
+    </header>
+
+    <!-- sidebar -->
+    <div class="sidebar-overlay"></div>
+    <nav class="sidebar" id="sidebar" aria-label="Main menu">
+    <button class="sidebar-close" aria-label="Close menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+    </button>
+    <ul class="sidebar-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Story</a></li>
+        <li><a href="product-catalog.html">Product</a></li>
+        <li><a href="#team">Our team</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    </nav>
+
+    <!-- hero sect -->
+     <section class="hero" id="home">
+        <img src="assets/images/miumiu-miubelle-crash-1.jpg" alt="Miu Miu Bag Potrait">
+        <div class="hero-content">
+            <h1>All You Need<br>is Here.</h1>
+            <a class="round-btn" href="#about"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down preview-icon"><path d="M12 5v14"/><path d="m19 12-7 7-7-7"/></svg></a>
+        </div>
+     </section>
+     
+    <!-- about -->
+    <section class="about" id="about">
+    <h1 class="about-heading">Where<br> Culture<br>meets <br> <span class="bold-effect">Curiosity.</span></h1>
+
+    <div class="element-cards">
+
+        <div class="card-img-1">
+        <div class="card-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-max="12" data-tilt-scale="1.05" data-tilt-gyroscope="false">
+            <img src="assets/images/card-display-miumiu.png" alt="card-1">
+        </div>
+        </div>
+
+        <div class="card-img-2">
+        <div class="card-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-max="12" data-tilt-scale="1.05" data-tilt-gyroscope="false">
+            <img src="assets/images/Rectangle 16.png" alt="card-2">
+        </div>
+        </div>
+
+        <div class="card-img-3">
+        <div class="card-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-max="12" data-tilt-scale="1.05" data-tilt-gyroscope="false">
+            <img src="assets/images/Rectangle 20.png" alt="card-3">
+        </div>
+        </div>
+
+        <div class="card-img-4">
+        <div class="card-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-max="12" data-tilt-scale="1.05" data-tilt-gyroscope="false">
+            <img src="assets/images/Rectangle 19.png" alt="card-4">
+        </div>
+        </div>
+
+        <div class="card-img-5">
+        <div class="card-tilt" data-tilt data-tilt-glare data-tilt-max-glare="0.3" data-tilt-max="12" data-tilt-scale="1.05" data-tilt-gyroscope="false">
+            <img src="assets/images/Rectangle 17.png" alt="card-5">
+        </div>
+        </div>
+
+    </div>
+    </section>
+      
+    <!-- intro sect -->
+    <section class="intro" id="intro">
+        <div class="grid-wrapper">
+            <div class="grid-img">
+                <div class="cell cell-1"></div>
+                <div class="cell cell-2"></div>
+                <div class="cell cell-3"><img src="assets/images/display-1.png" alt="display 1"></div>
+                <div class="cell cell-4">simple-fancy</div>
+
+                <div class="cell cell-5">The<br>Looks<br>Everyone<br>Wants.</div>
+                <div class="cell cell-6"><img src="assets/images/display-2.png" alt="display 2"></div>
+                <div class="cell cell-7"></div>
+                <div class="cell cell-8"><img src="assets/images/display-3.png" alt="display 3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amount sect-->
+    <section class="amount">
+        <div class="number">
+            <p class="text-counts">Over</p>
+            <h1 class="counts" data-target="140">0</h1>
+            <p class="text-counts">Products sold.</p>
+        </div>
+    </section>
+
+    <!-- slider sect -->
+    <section class="slider-sect">
+        <div class="slider-track">
+
+                <article class="slider">
+                    <img class="slide-img" src="assets/images/slide-1.png" alt="bags prev 1">
+                    <h1 class="top-heading">Wear it<br>loud.</h1>
+                    <h1 class="bottom-heading">Up to<br>every mood.</h1>
+                </article>
+
+                <article class="slider">
+                    <img class="slide-img" src="assets/images/slide-2.png" alt="bags prev 2">
+                    <h1 class="top-heading">Head<br>to toe.</h1>
+                    <h1 class="bottom-heading">Nothing<br>basic.</h1>
+                </article>
+
+                <article class="slider">
+                    <img class="slide-img" src="assets/images/slide-3.png" alt="bags prev 3">
+                    <h1 class="top-heading">Dress<br>the<br>mood.</h1>
+                    <h1 class="bottom-heading">Looks<br>on<br>repeat.</h1>
+                </article>
+        </div>
+        <div class="progress"><span class="progress-bar"></span></div>
+    </section>
+
+    <!-- category sect -->
+    <section class="category">
+        <div class="category-wrapper">
+            <h1 class="category-heading">This All we have.</h1>
+            <div class="category-box">
+                <div class="category-1">
+                    <img src="assets/images/bags-cat.png" alt="Bags category">
+                    <h2 class="heading-category">Bags</h2>
+                    <!-- layer -->
+                    <div class="category-layer">
+                        <p>Shop Bags.</p>
+                        <a href="bags-products.html" class="open-category"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right preview-icon"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+                    </div>
+                </div>
+
+                <div class="category-2">
+                    <img src="assets/images/shoes-cat.png" alt="Bags category">
+                    <h2 class="heading-category">Shoes</h2>
+                    <!-- layer -->
+                    <div class="category-layer">
+                        <p>Shop Shoes.</p>
+                        <a href="shoes-products.html" class="open-category"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right preview-icon"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+                    </div>
+                </div>
+
+                <div class="category-3">
+                    <img src="assets/images/acc-cat.png" alt="Bags category">
+                    <h2 class="heading-category">Accessories</h2>
+                    <!-- layer -->
+                    <div class="category-layer">
+                        <p>Shop Accessories.</p>
+                        <a href="acc-products.html" class="open-category"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right preview-icon"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+                    </div>
+                </div>
+
+                <div class="category-4">
+                    <img src="assets/images/jewel-cat.png" alt="Bags category">
+                    <h2 class="heading-category">Jewellery</h2>
+                    <!-- layer -->
+                    <div class="category-layer">
+                        <p>Shop Jewellery.</p>
+                        <a href="jewel-products.html" class="open-category"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right preview-icon"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+                    </div>
+                </div>
+
+                <div class="category-5">
+                    <img src="assets/images/frag-cat.png" alt="Bags category">
+                    <h2 class="heading-category">Fragrancess</h2>
+                    <!-- layer -->
+                    <div class="category-layer">
+                        <p>Shop Fragrancess.</p>
+                        <a href="frag-products.html" class="open-category"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right preview-icon"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+                    </div>
+                </div>
+
+                <div class="category-6">
+                    <img src="assets/images/gifts-cat.png" alt="Bags category">
+                    <h2 class="heading-category">Gifts</h2>
+                    <!-- layer -->
+                    <div class="category-layer">
+                        <p>Shop Gifts.</p>
+                        <a href="gifts-products.html" class="open-category"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right preview-icon"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+                    </div>
+                </div>
+
+                <div class="category-7">
+                    <img src="assets/images/r2w-cat.png" alt="Ready to wear category">
+                    <h2 class="heading-category">Ready to Wear</h2>
+                    <!-- layer -->
+                    <div class="category-layer">
+                        <p>Shop Ready to Wear.</p>
+                        <a href="r2w-products.html" class="open-category"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right preview-icon"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></svg></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- team -->
+    <section class="team" id="team">
+       <div class="team-perview">
+        <h1 class="team-heading">The faces of Miu Miu.</h1>
+        <p class="team-desc">Meet the team shaping every season.</p>
+       </div>
+       <div class="team-cards">
+            <div class="team-card-box">
+                <img src="assets/images/miuuu.jpe" alt="team-1">
+                <h2>Alessia Moretti</h2>
+                <h3>Chief Executive Officer</h3>
+                <p>Leads the brand with fashion.</p>
+            </div>
+            <div class="team-card-box">
+                <img src="assets/images/miu.avif" alt="team-2">
+                <h2>Giulia Ferrante</h2>
+                <h3>Creative Director</h3>
+                <p>Turns curiosity into collections.</p>
+            </div>
+            <div class="team-card-box">
+                <img src="assets/images/dd.avif" alt="team-3">
+                <h2>Matteo Rinaldi</h2>
+                <h3>Head of Brand & Culture</h3>
+                <p>Keeps the Miu Miu story.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- outro -->
+    <section class="outro">
+    <h1>Impress<br>better<br>Fashion.</h1>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+    <div class="footer-main">
+
+        <a class="footer-logo" href="#home" aria-label="Miu Miu, back to top">
+        <img src="assets/images/MiuMiuNUXlogo 2.png" alt="Miu Miu">
+        </a>
+
+        <div class="footer-col">
+        <h2 class="footer-heading">Contact</h2>
+        <ul class="footer-list footer-list--dots">
+            <div class="footer-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail preview-icon"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+                <a href="mailto:client.service@miumiu.com">client.service@miumiu.com</a>
+            </div>
+            <div class="footer-content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></svg>
+                <a href="tel:+18889648648">+1-888-964-8648</a>
+            </div>
+        </ul>
+        </div>
+
+        <div class="footer-col">
+        <h2 class="footer-heading">Company</h2>
+        <ul class="footer-list">
+            <li><a href="#">Prada group</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Work with us</a></li>
+        </ul>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; Prada 2005-2026.</p>
+        <p>&copy; 2026 Miu Miu. All rights reserved.</p>
+    </div>
+    </footer>
+       
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js" integrity="sha512-YzMW3OzvgtVpIIPPpjnCy8wVTq5slHRrxnLH1oD5dkVjZf8+8DJYd+GYmmWXZNmroTqKXFFzFS3XZ/LBvaNgZg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/node.js"></script>
+    <script src="js/vanilla-tilt.js"></script>
+
+</body>
+</html>
